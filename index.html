@@ -136,18 +136,19 @@ body {
 #mapTooltip {
     position: fixed;
     z-index: 9999;
-    background: rgba(25, 25, 25, 0.95);
-    color: #fff;
+    background: rgba(255, 255, 255, 0.95);
+    color: #000000;
     padding: 8px 14px;
     border-radius: 6px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     pointer-events: none;
     opacity: 0;
     transform: translate(-50%, -130%);
     transition: opacity 0.15s ease;
     white-space: nowrap;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    text-transform: uppercase;
 }
 
 #mapTooltip.show {
@@ -249,14 +250,14 @@ body {
 #mapStateCta {
     margin-top: 14px;
     text-align: center;
-    color: rgba(255,255,255,0.65);
+    color: rgba(2, 2, 2, 0.65);
     font-size: 15px;
     letter-spacing: 1px;
     transition: 0.25s ease;
 }
 
 #mapStateCta.active {
-    color: #9bd36a;
+    color: #fff;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -351,7 +352,7 @@ body {
   <text class="cls-2" transform="translate(531.7 300.9)"><tspan x="0" y="0">MO</tspan></text>
   <text class="cls-2" transform="translate(532.39 373.6)"><tspan x="0" y="0">AR</tspan></text>
 </svg>
-          <div id="mapStateCta">Click a green highlighted state to browse listings</div>
+          <div id="mapStateCta">Click a Black highlighted state to browse listings</div>
         </div>
         <div id="mapTooltip"></div>
       </div>
